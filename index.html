@@ -1,99 +1,45 @@
-
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Buchwebsite</title>
-<style type="text/css">
+	<head>
+		<title>Zahlengenerator</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <script>
+			"use strict";
+				
+		function clicked() {			
+		var i=1
+		var vAnzahl= document.getElementById("idZahl").value;
+		var vAusgabe = "";
+		var i2		
+		var i3
+
+		vAusgabe = vAusgabe + "<table border=1>";
+		vAusgabe = vAusgabe + "<tr><th>" + "x" + "</th><th>" + "x2" + "</th><th>"+"x3"+"</th></tr>";
 
 
-* {
- margin: 0px;
- padding: 0px;
-}
+		while (i<=vAnzahl) {
+		i2= i*i
+		i3= i*i*i
 
-#center {
-  margin: 0px auto;
-	width: 830px;
-	height:830px;
-	background-color:#CCC;
-	border: solid 4px #3C474B;
-}
+		vAusgabe= vAusgabe + "<tr><td>" +  i + "</td><td>" + i2 + "</td><td>" + i3 + "</td></tr>";
 
-#navi {
+		i= i+1;
 
-  width: 830px;
-	height: 100px;
-	background-color:grey;
-}
+		}
 
-#logo {
+		document.getElementById("idOutput").innerHTML = vAusgabe;
+		}
 
-	background-image: url(lorgo.gif);
+	</script>
 
-	height:90px;
-	width: 350px;
-	float: right;
-}
+	</head>
 
-#linkespalte{
-	<im url(bild_1.jpg);
-	height: 200px;
-	weight: 200px;
-}
+	<body>
 
-
-
-}
-
-
-p.fett:first-letter{
-	font-weight:bold;
-	font-size:2.4em;}
-li {
-
-
-}
-
-
-</style>
-</head>
-
-<body>
-<div id="center">
-
-<!--Logo-->
-	<div id="logo">
-
-	</div>
-
-<!--Navigation-->
-	<div>
-		<ul>
-			<a href="http://www.index.com" target="_blank";>News</a>
-			<br>
-      <a href="http://www.index.com" target="_blank";>Art</a>
-			<br>
-			<a href="http://www.index.com" target="_blank";>Design</a>
-
-		</ul>
-	</div>
-
-<!--Linke Spalte-->
-<img src="bild_1.jpg" width="350px";height="500px"/>
-	<div id="linkespalete">
-
-	</div>
-<!--Rechte Spalte-->
-	<div>
-	</div>
-
-<!--Footer-->
-	<div>
-
-	</div>
-
-</div>
-
-</body>
+		<h1>Tabelle hoch 2 und 3</h1>
+		Eingabe: <input id="idZahl" type="text" value="10">
+		<button onClick="clicked();">Berechne die zahlen</button>
+		<br><br>
+		<div id="idOutput">Hier kommen die Zahlen</div>
+	</body>
 
 </html>
