@@ -1,229 +1,325 @@
-<!DOCTYPE html>
-<!-- Template by Quackit.com -->
-<html lang="en">
+  <!DOCTYPE html>
+<html lang="de">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>InfoTeam GmbH</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
-    <link href="css/custom.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+  <title>Buy4Buy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Bootstrap5/bootstrap.min.css">
+          
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/bildschirm.css" rel="stylesheet">
 </head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<body>
+  
+    
+    <nav class="fixed-top navbar navbar-expand-lg">
+  <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-road"></span></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class=""></span>
+  </button>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Logo and responsive toggle -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-fire"></span> Logo</a>
-            </div>
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Über uns</a>
-                    </li>
-                    <li>
-                        <a href="#">Unsere Dienstleistungen</a>
-                    </li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-						<ul class="dropdown-menu" aria-labelledby="about-us">
-							<li><a href="#">IT-Netzwerke</a></li>
-							<li><a href="#">IT-Sicherheit</a></li>
-							<li><a href="#">IT-Support</a></li>
-						</ul>
-					</li>
-                </ul>
-
-				<!-- Search -->
-				<form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control">
-					</div>
-					<button type="submit" class="btn btn-default">Search</button>
-				</form>
-
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-	<div class="jumbotron feature">
-		<div class="container">
-		
-		<div id="feature-carousel" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-			  <li data-target="#feature-carousel" data-slide-to="0" class="active"></li>
-			  <li data-target="#feature-carousel" data-slide-to="1"></li>
-			  <li data-target="#feature-carousel" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner" role="listbox">
-				<div class="item active">
-					<h1>Hochauflösende aufnahmen!</h1>
-					<p>Bei uns erhalten Sie alles aus einer Hand, vom Server über die Firewall bis zum PC.</p>
-					<p><a class="btn btn-primary" href="#">Testlink</a></p>
-				</div>
-				<div class="item">
-					<h1>Feierlichkeiten - Wir übernehmen das Fotografieren auf ihrer feier für sie</h1>
-					<p>Bei uns wird IT-Sicherheit groß geschrieben! Unsere White-Hat Hacker beraten Sie umfassend!</p>
-					<p><a class="btn btn-primary" href="#">Testlink</a></p>
-				</div>
-				<div class="item">
-					<h1>Profesionelle Spiegelreflexkamera</h1>
-					<p>Wir bieten rundum 24/7 Support an!</p>
-					<p><a class="btn btn-primary" href="#">Kontaktieren Sie uns!</a></p>
-				</div>			  
-			</div>
-			<a class="left carousel-control" href="#feature-carousel" role="button" data-slide="prev">
-			  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			  <span class="sr-only">Zurück</span>
-			</a>
-			<a class="right carousel-control" href="#feature-carousel" role="button" data-slide="next">
-			  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			  <span class="sr-only">Vor</span>
-			</a>
-		  </div>
-
-		</div>
-	</div>
+  <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav ">
+      <li class="nav-item active">
+        <a class="nav-link" href="#Startseite">Startseite </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Filiale">Uns Erreichen</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Team">Top Seller</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="">Anbieter</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="index.html">Kontakt</a>
+      </li>
+    </ul>
+     
+  </div>
+</nav>
+      
+    
+    
+    
+    
+    
 
 
+<div class="jumbotron text-center">
+  <h1 style="font-size: 70px; text-decoration: line-through;">Buy4Buy<br> </h1> 
+    <p style="font-size: 30px;">Alles Rund um Sneakers</p> 
+  
+</div>
 
-    <!-- Content -->
-    <div class="container">
-
-        <!-- Page Intro -->
-        <div class="row page-intro">
-            <div class="col-lg-12">
-                <h1>Herzlich Willkommen auf der Seite der Vierjahreszeiten!</h1>
-                    <p>Der Verein „Fotofreunde Düsseldorf e.V.“ wurde im Jahr 2010 neu gegründet. Die Mehrheit unserer Mitglieder arbeitet aktiv mit der digitalen Technik. Ausgewähltetozeitschriften sind von uns abonniert und halten uns auf dem neuesten technischen und künstlerischen Stand. Auch die Geselligkeit kommt nicht zu kurz. Wir treffen uns nach Absprache an Wochenenden zu Fotowanderungen. Sind Sie interessiert oder gar neugierig geworden, dann besuchen Sie uns doch einfach einmal unverbindlich. Wir würden uns über Ihr Kommen freuen. Wir treffen uns jeden Mittwoch um 20.00 Uhr im Schulgebäude Kirchfeldstr. 94-96, Düsseldorf.</p>
-                <br><br>
-				
-
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Feature Row -->
-        <div class="row">
-            <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="bilder/Herbst.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="#">Herbst der Farbenvielfalt</a>
-                </h3>
-                <p>Im Herbst werden die Blätter bunt und es wird kälter. Manche Tiere bereiten sich für den Winterschlaf vor, und das Eichhörnchen sammelt und versteckt Nüsse für den Winter. Die Bäume werden kahl, Katzen bekommen ein dickes Fell. Es gibt Nüsse, Äpfel und Trauben. Manche Vögel fliegen nach Afrika, um zu überwintern. Man kann nicht mehr so viel draußen spielen und nicht mehr in Freibädern schwimmen.
-                    Alles ist bunt
-                    Im Herbst ist alles bunt. Im Wald werden die Blätter gelb, orange und braun. Es gibt auch viele Kastanien und leckere Nüsse, Walnüsse und Eicheln. Die Tiere bereiten sich auf ihren Winterschlaf vor und essen ganz viel.
-                    
-                    Auch wir müssen immer mehr Kleider anziehen, denn im Herbst gibt es oft Wind. Wir lassen unsere Drachen steigen. Der Herbst ist einfach schön.</p>
-            </article>
-            <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="Bilder/Frühling.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="#">Frühling ein Kleiner Einstieg</a>
-                </h3>
-                <p>Das Schönste am Frühling ist, dass er immer dann kommt, wenn man ihn am dringendsten braucht.“ (Jean Paul) Dieser Frühlingsspruch passt zum Frühjahr 2021 ganz besonders gut, denn nach der langen Lockdown-Zeit sehnen wir uns mehr denn je nach den ersten warmen Sonnenstrahlen, zwitschernden Vögeln und bunter Blütenpracht ­– vor allem aber auch nach anderen Menschen! Die perfekte Zeit also, um Kontakte zu Freunden und Bekannten (wieder) aufzunehmen oder zu intensivieren. Zum Beispiel mit einem Frühlingsgruß! Ob lustig, poetisch oder inspirierend: Wir haben 30 schöne Zitate, Gedichte und kurze Sprüche zum Frühling zusammengestellt, die das Eis zum Schmelzen bringen, Frühlingsgefühle wecken oder einfach ein Lächeln ins Gesicht zaubern.</p>
-            </article>
-
-            <article class="col-md-4 article-intro">
-                <a href="#">
-                    <img class="img-responsive img-rounded" src="Bilder/Winter.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="#">Winter Klirrende Kälte</a>
-                </h3>
-                <p>Bevor es Winter wird, verkriechen sich viele Säugetier zum Winterschlaf in ihre Nester und Höhlen.
-                    Die Zugvögel hingegen machen sich auf ihre weite Reise in den Süden, um erst im nächsten Frühling zurückzukommen.
-                    Doch unsere heimischen Vogelarten verbringen wie viele andere Tiere auch den Winter bei uns. Man nennt sie auch Standvögel.
-                    An kalten Wintertagen, wenn Schnee und Eis den Boden bedecken, finden diese Vögel oft nicht genügend Nahrung, um zu überleben. Timo weiß das sehr genau. Aus diesem Grund hat er mit seinem Vater im Garten an einem Baum ein Vogelhäuschen aufgehängt. Regelmäßig versorgt er die Vögel mit Futter, damit sie die kalten Wintertage überstehen können.
-                    </p>
-            </article>
-        </div>
-        <!-- /.row -->
-
+<!-- Container (Startseite) -->
+<div id="Startseite" class="container-fluid">
+  <div class="row">
+    <div class="col-xl-8">
+      <h1>Startseite von</h1> <h1 style="border: black; border-radius: 50px; border-style: double; text-align: center; text-decoration: line-through;" >Buy4Buy</h1><br>
+         <h3>Die Neusten Sneakers</h3>
+<br>
+<p class="lead" style="background-color: #8833ee; color: whitesmoke; border: double; border-radius: 10px;" >Unser Unternehmen Arbeitet zusammen mit (Nike,Adidas,Puma usw.)</p>
+      </div>
+    
+         <div class="col-xl-4">
+             
+     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Bilder/Carousel/Bild2.jpg" class="d-block w-100" alt="...">
     </div>
-    <!-- /.container -->
-	
-	<footer>
-		<div class="footer-blurb">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4 footer-blurb-item">
-						<img class="img-circle" src="holder.js/100x100" alt="" width="100" height="100">
-						<h3>Test Text 5</h3>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-						<p><a class="btn btn-default" href="#">Testlink</a></p>
-					</div>
-					<div class="col-sm-4 footer-blurb-item">
-						<img class="img-circle" src="holder.js/100x100" alt="" width="100" height="100">
-						<h3>Test Text 6</h3>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-						<p><a class="btn btn-default" href="#">Testlink</a></p>
-					</div>
-					<div class="col-sm-4 footer-blurb-item">
-						<img class="img-circle" src="holder.js/100x100" alt="" width="100" height="100">
-						<h3>Test Text 7</h3>
-						<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet..</p>
-						<p><a class="btn btn-default" href="#">Testlink</a></p>
-					</div>
+    <div class="carousel-item">
+      <img src="Bilder/Carousel/Bild3.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Bilder/Carousel/Bild4.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+        
+        </div>
+      </div>
+        <div class="row">
 
-				</div>
-				<!-- /.row -->	
-			</div>
+
+
+
+    <div class="col-sm-12"> 
+
+    
+      <div class="col-xl-4">
+             
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-inner">
+       <div class="carousel-item active">
+         <img src="Bilder/Carousel/Bild5" class="d-block w-100" alt="...">
+       </div>
+       <div class="carousel-item">
+         <img src="Bilder/Carousel/Bild6.jpg" class="d-block w-100" alt="...">
+       </div>
+       <div class="carousel-item">
+         <img src="Bilder/Carousel/Bild7" class="d-block w-100" alt="...">
+       </div>
+     </div>
+     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+     </a>
+     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+     </a>
+   </div>
+           
+           </div>
+         </div>
+           <div class="row">
+       <div id="Anbieter"> 
+        <br>
+      
+<h2 style="text-align: center;background-color:black ; color: white; border-radius: 50px;">Hunderte Mögliche Anbieter Arbeiten mit uns zusammen. Hier einige Bespiele:</h2>
+<br><br>
+<ul class="lead">
+<a href="https://stockx.com/de-de" target="_blank">Zu StockX</a>
+<br>
+<a href="https://www.nike.com/de/?cp=58194921917_search_%7cnike%7c10594878144%7c107792850634%7ce%7cc%7cDE%7cpure%7c452291007821&ds_rl=1252249&gclid=EAIaIQobChMI7cfjhsqS_QIVb4xoCR2RcA7bEAAYASAAEgIu2PD_BwE&gclsrc=aw.ds" target="_blank">Zu Nike</a>
+<br>
+<a href="https://www.adidas.de/" target="_blank">Zu Adidas</a>
+<br>
+<a href="https://eu.puma.com/de/de/home?gclid=EAIaIQobChMIlJC5rsqS_QIVGYbVCh1iuwBsEAAYASAAEgKYavD_BwE" target="_blank">Zu Puma</a>
+<br>
+<a href="https://www.fashionnova.com/" target="_blank">Zu fashionnova</a>
+<br><br>
+
+</ul>
+        <h2 style="text-align: center;">Bei einem Kauf über unsere Website Sparen sie sich Unglaubliche</h2>
+        <h2 style="background-color:#8833ee ; color: white; border-radius: 500px; text-align: center; font-size: 60px;">15%!!!!!!</h2>
+    
+        
+        <br><br>
+    </div>
+    <img src="Bilder/Carousel/Logo.PNG" width="100px" 
+height="400px" align="center"/>
+  </div>
+</div>
+<br><br>
+
+  
+
+
+<!-- Container (Services Section) -->
+    <div id="Filiale" class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+              <h2 style="background-color:#8833ee ; color: white; border-radius: 50px; text-align: center;">Unter der Nummer 0173/7374582 stehen wir für fragen bereit</h2>
+  <hr />
+  <p style="text-align: center;font-size: 30px;">Montags bis Freitags 13.00 - 18.00 Uhr </p>
+  <hr />
+                        <p style="text-align: center; font-size: 30px;">Samstag nur bei Terminen in der Beratung</p><hr />
+                        <br><br><br>
+            <p style="text-align: center; border: double; border-radius: 50px; background-color: #8833ee; color: white; font-size: 30px;">Hier Treffen Sie uns Persönlich an</p>
+            </div>
+        </div>
+        <div class="row">
+    <div class="col-4">
+      
+ <br><br>
+         <h2 style="text-align: center;">Düsseldorf</h2>
+        <p style="text-align: center;">Kirchfeld Str.12</p>
+          <div ><img src="Bilder/Filiale_Duisburg.jpg" class="img-fluid" alt="Filiale Düsseldorf" border=3px></div>
+        
+        
+            </div>
+       
+<div class="col-md-4">
+  <br><br>
+  <h2 style="text-align: center;">Köln</h2>
+  <p style="text-align: center;">Draht Str.33</p>
+            <div><img src="Bilder/Filiale_Leipzig.jpg" class="img-fluid" alt="Filiale Duisburg" border=3px></div>
+      
+ 
+        </div>
+             <div class="col-md-4">
+       
+
+
+              <br><br>
+         <h2 style="text-align: center;">Berlin</h2>
+         <p style="text-align: center;">Torwand Str.57</p>
+               <div ><img src="Bilder/Filiale_Nuernberg.jpg" class="img-fluid" alt="Filiale Duisburg" border=3px></div>
+      
+ 
         </div>
         
-        <div class="small-print">
-        	<div class="container">
-        		<p><a href="#">AGB</a> | <a href="#">Datenschutzerklärung</a> | <a href="#">Kontakt</a></p>
-        		<p>Copyright 2022 Alessandro</p>
-        	</div>
+            </div>
         </div>
-	</footer>
+ 
+       
+   
+    
 
-	
-    <!-- jQuery -->
-    <script src="js/jquery-1.11.3.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-	
-	<!-- IE10 viewport bug workaround -->
-	<script src="js/ie10-viewport-bug-workaround.js"></script>
-	
-	<!-- Placeholder Images -->
-	<script src="js/holder.min.js"></script>
-	
+<!-- Container (Team Seite) -->
+<div id="Team" class="container-fluid text-center bg-grey">
+  <h1 style="text-align: center;background-color: #8833ee; color: white; border-radius: 50px; border: 3px;">Unseren Beliebtesten Sneakers</h1><br>
+
+
+
+
+  <h1 style=" text-align: center;">Nike</h1>
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="Bilder/Schuh1.jpeg"  width="350" height="250">
+        
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="Bilder/Schuh2.jpeg" width="350" height="250">
+        
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="Bilder/Schuh3.jpeg"  width="350" height="250">
+        
+        
+      </div>
+    </div>
+      <br><br>
+  </div>
+
+<h1 style=" text-align: center;">Adidas</h1>
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="Bilder/Schuh5.jpg"  width="350" height="250">
+        
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="Bilder/Schuh4.png" width="350" height="250">
+        
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="Bilder/Schuh6.png"  width="350" height="250">
+        
+      </div>
+    </div>
+
+    <h1 style=" text-align: center;">Puma</h1>
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="Bilder/Schuh7.jpg"  width="350" height="250">
+          
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="Bilder/Schuh8.png" width="350" height="250">
+          
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="Bilder/Schuh9.png"  width="350" height="250">
+          
+        </div>
+  </div>
+
+  <h1 style=" text-align: center;">Ape</h1>
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="Bilder/Schuh10.jpeg" width="350" height="250">
+        
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="Bilder/Schuh11.jpeg" width="350" height="250">
+       
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <img src="Bilder/Schuh12.jpeg"  width="350" height="250">
+        
+        
+      </div>
+    </div>
+      <br><br>
+  </div>
+
+
+<footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+ 
+      <h2 style="background-color: #8833ee; color: white; bottom: 0px; border-radius: 50px; font-size: 50px;" >Buy4Buy</h2>
+      <small>Copyright 2022 Alessandro</small>
+</footer>
+
+<script src="Bootstrap5/bootstrap.bundle.min.js"></script>
+
+
 </body>
-
 </html>
